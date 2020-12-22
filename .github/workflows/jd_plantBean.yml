@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【种豆得豆】'
+      - name: '种豆得豆'
         run: |
           node jd_plantBean.js
         env:

@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【宠汪汪喂食脚本】'
+      - name: '宠汪汪喂食'
         run: |
           node jd_joy_feedPets.js
         env:

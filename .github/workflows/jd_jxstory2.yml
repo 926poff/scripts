@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【京喜厂长2】'
+      - name: '京喜厂长2'
         run: |
           node jd_jxstory.js
         env:

@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【直播红包雨】'
+      - name: '直播红包雨'
         run: |
           node jd_live_redrain.js
         env:

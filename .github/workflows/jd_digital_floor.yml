@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【数码加购京豆】'
+      - name: '数码加购京豆'
         run: |
           node jd_digital_floor.js
         env:

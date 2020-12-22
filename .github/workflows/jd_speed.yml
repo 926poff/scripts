@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【天天加速】'
+      - name: '天天加速'
         run: |
           node jd_speed.js
         env:

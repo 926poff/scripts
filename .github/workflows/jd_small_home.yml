@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【小窝】'
+      - name: '小窝'
         run: |
           node jd_small_home.js
         env:
