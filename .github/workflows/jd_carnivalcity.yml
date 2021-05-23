@@ -10,7 +10,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: adolf_ETIP
+    types: jd_carnivalcity
 jobs:
   build:
 
@@ -37,7 +37,7 @@ jobs:
           npm install
       - name: '手机狂欢城'
         run: |
-          node adolf_ETIP.js
+          node jd_carnivalcity.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
